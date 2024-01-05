@@ -1128,13 +1128,7 @@ body {
        margin-bottom: 20px;
        order: 3;
     }
-    #courseDonutChart,
-    #lineChart,
-    #myPieChart {
-        width: 50%; /* Make the charts take up 100% of the container width */
-        max-width: 100%; /* Ensure the charts don't exceed the screen width */
-        height: auto; /* Allow the height to adjust proportionally based on the width */
-    }
+
   
     
 }
@@ -1183,12 +1177,16 @@ body {
 #spe {
     padding-top: 60px;
 }
+
+
+
 .column {
     padding: 20px;
     padding-top: 0;
     margin-top: -20px;
     margin-left: -2px;
 }
+
 .earning,
 .perfomance,
 .location_container {
@@ -1210,7 +1208,7 @@ body {
     width: 100%;
    padding: 2px;
    margin-left: 2px;
-   height: 450px;
+   height: 200px;
 }
 #chartContainer a {
     text-align: center;
